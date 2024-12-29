@@ -66,7 +66,8 @@ section {
 }
 
 .text-content {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
+    line-height: 22px;
 }
 
 .section-1 .form-wrapper {
@@ -113,13 +114,15 @@ section {
     background-position: center top;
     height: 115px;
     width: 100%;
-    margin-top: 5%;
+    margin-top: 9%;
+    padding-top: 14rem;
 }
 
 .section-2 {
     background-color: hsl(240deg 100% 98.7%);
     padding-top: 0;
     gap: 1rem;
+    padding-bottom: 7rem;
 }
 
 .section-2 .heading {
@@ -142,7 +145,8 @@ section {
 }
 
 .section-2 .content-wrapper>p {
-    font-size: 1.125rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
 }
 
 .section-2 .link {
@@ -195,11 +199,11 @@ section {
 .more-info {
     color: #fff;
     font-size: 1.8rem;
-   padding-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .further-details {
-   line-height: 1.8rem;
+    line-height: 1.8rem;
     color: #fff;
     font-size: 1.125rem;
 }
@@ -208,6 +212,7 @@ section {
     background-color: hsl(238, 22%, 44%);
     width: 100%;
     gap: 17rem;
+    padding-top: 7rem;
 }
 
 .section-3 .input-field2 {
@@ -224,7 +229,7 @@ section {
     width: 43%;
 }
 
-.right{
+.right {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -249,6 +254,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    padding-top: 7rem;
 }
 
 .footer-1 {
@@ -263,8 +269,9 @@ footer {
 }
 
 .logo-2 {
-    vertical-align: middle; 
+    vertical-align: middle;
     filter: brightness(0) invert(1);
+    padding-top: 1rem;
 }
 
 .first-ul {
@@ -285,3 +292,217 @@ a {
     text-decoration: none;
     color: #fff;
 }
+
+.email {
+    padding-right: 1rem;
+}
+
+.phone-number {
+    padding-right: 1rem;
+}
+
+/* ********************************************MOBILE-VIEW************************************************************ */
+
+
+@media screen and (max-width: 1300px) {
+
+    .section-2 .heading {
+        font-size: 1.8rem;
+    }
+
+    .section-1 .heading {
+        font-size: 1.9rem;
+        line-height: 1.3;
+    }
+}
+
+@media screen and (max-width: 1274px) {
+    .further-details {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .more-info {
+        font-size: 1.5rem;
+    }
+
+    .section-1 .heading {
+        font-size: 1.5rem;
+    }
+
+    .section-3 {
+        gap: 10rem;
+    }
+
+    .section-3 .left {
+        width: 50%;
+    }
+
+    .section-3 .input-field2 {
+        width: 20rem;
+    }
+
+    .btn {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 853px) {
+
+    .logo {
+        height: 1rem;
+    }
+
+    nav {
+        gap: 2rem;
+    }
+
+    section {
+        display: block
+    }
+
+    .section-1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section-1 .heading {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .section-2 .heading {
+        text-align: center;
+    }
+
+    .text-content {
+        padding: 1rem;
+        text-align: center;
+        font-size: 1.4rem;
+        line-height: 26px;
+    }
+
+    .section-1 .form-wrapper {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .section-1 .input-field {
+        width: 100%;
+        padding: 0.7rem;
+    }
+
+    .section-1 .btn {
+        width: 100%;
+    }
+
+    .section-1>.section-left {
+        gap: .1rem;
+    }
+
+    .section-2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section-2 .section-left {
+        gap: 2.5rem;
+    }
+
+    .section-2 .content-wrapper>p {
+        font-size: 24px;
+        padding-left: 2.3rem;
+        color: hsl(0deg 1.28% 45.76%);
+        font-weight: 100;
+    }
+
+    .section-2 .link {
+        display: flex;
+        justify-content: center;
+        gap: .3rem;
+        padding: 2rem;
+    }
+
+    .card {
+        align-self: center;
+        width: 70%;
+    }
+
+    .section-3 .left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .further-details {
+        padding: 1rem;
+    }
+
+    .section-3 .input-field2 {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .section-1>.section-left {
+        padding-right: 0;
+    }
+
+    .illustration-container {
+        padding-top: 9.5rem;
+    }
+
+}
+
+@media screen and (max-width : 852px) {
+    .btn {
+        width: 50%;
+    }
+
+    .section-3 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width : 800px) {
+
+
+    .section-2 .content-wrapper {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width : 500px) {
+    .section-2 .heading {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width : 575px) {
+    .logo-2 {
+        padding: .5rem;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
+@media screen and (max-width : 400px) {
+    nav {
+        gap: .5rem;
+    }
+
+    a.nav-link {
+        font-size: .9rem;
+    }
+}
+
+
